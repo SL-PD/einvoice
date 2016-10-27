@@ -10,7 +10,29 @@
 
 ### 發票API說明：
 
-範本類：
+**範本類**：
+
+開立B2C存證發票內容範本
+
+```
+http://web2.systemlead.com/EINV2/api/einv/B2CSample
+```
+
+開立B2B存證發票內容範本
+
+```
+http://web2.systemlead.com/EINV2/api/einv/B2BSample
+```
+
+發票上傳範本
+
+```
+http://web2.systemlead.com/EINV2/api/einv/AppendInvoiceSample
+```
+
+發票上傳
+
+
 
 
 
