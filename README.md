@@ -1,3 +1,3 @@
 # e首發票 API 說明文件
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+此文件主要為e首發票 API 相關說明文件，內容以 2016-10 月矽聯科技定義之API為說明範本，程式仍以目前釋出版本為主。
