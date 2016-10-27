@@ -17,8 +17,7 @@
 }
 ```
 * CompanyID: 請傳入使用e首發票的公司統編
-* Timestamp: 請傳入 Unix Timestamp 相關轉換請參考 [http://www.epochconverter.com/]
-(http://www.epochconverter.com/)
+* Timestamp: 請傳入 Unix Timestamp 相關轉換請參考 [[http://www.epochconverter.com/](http://www.epochconverter.com/)]
 * Signature: 簽章驗證值，為SHA256加密之所產生之驗證值。產生方法可參閱[簽章驗證碼](signature.md)說明
 
  
