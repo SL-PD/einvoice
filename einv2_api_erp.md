@@ -30,7 +30,25 @@ http://web2.systemlead.com/EINV2/api/einv/B2BSample
 http://web2.systemlead.com/EINV2/api/einv/AppendInvoiceSample
 ```
 
+**功能類**：
+
 發票上傳
+
+```
+http://web2.systemlead.com/EINV2/api/einv/AppendInvoice
+```
+
+發票作廢上傳
+
+```
+http://web2.systemlead.com/EINV2/api/einv/CancelInvoice
+```
+
+查詢發票狀態
+
+```
+http://web2.systemlead.com/EINV2/api/einv/GetInvoiceStatus
+```
 
 
 
