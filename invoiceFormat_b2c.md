@@ -19,7 +19,7 @@ B2C
 * PrintMark: 如果有列印發票，請填 Y 否則填 N
 * DonateMark: 是否捐贈發票，設定為 N 若設定為 Y 則需填 NPOBAN
 * NPOBAN: 捐贈愛心碼，請完整填入3-7碼愛心碼。
-* SalesAmount: 銷售含稅總額
+* SalesAmount: 銷售含稅總額\(明細小計總額\)
 * TaxAmount: 總稅額為0
 * TotalAmount: 總金額\(銷售含稅總額+總稅額\); 型別Decimal\(12,0\)
 * Details: 單身明細
