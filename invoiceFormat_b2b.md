@@ -21,8 +21,6 @@ B2B
 * SalesAmount: 銷售未稅總額
 * TaxAmount: 總稅額
 * TotalAmount: 總金額\(銷售未稅總額+總稅額\); 型別Decimal\(12,0\)
-* FreeTaxSalesAmount: 免稅額總計\(預設為0\); 型別Decimal\(12,0\)
-* ZeroTaxSalesAmount: 零稅額總計\(預設為0\); 型別Decimal\(12,0\)
 * Details: 單身明細
 
 發票單身
