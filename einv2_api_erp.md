@@ -15,25 +15,25 @@
 開立B2C存證發票內容範本
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/B2CSample
+http://web2.systemlead.com/EINV2API/api/einv/B2CSample
 ```
 
 開立B2B存證發票內容範本
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/B2BSample
+http://web2.systemlead.com/EINV2API/api/einv/B2BSample
 ```
 
 發票上傳範本
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/AppendInvoiceSample
+http://web2.systemlead.com/EINV2API/api/einv/AppendInvoiceSample
 ```
 
 發票作廢上傳範本
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/CancelInvoiceSample
+http://web2.systemlead.com/EINV2API/api/einv/CancelInvoiceSample
 ```
 
 **功能類**：
@@ -41,18 +41,18 @@ http://web2.systemlead.com/EINV2/api/einv/CancelInvoiceSample
 發票上傳
 
 ```
-http://web2.systemlead.com/INV2/api/einv/AppendInvoice
+http://web2.systemlead.com/EINV2API/api/einv/AppendInvoice
 ```
 
 發票作廢上傳
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/CancelInvoice
+http://web2.systemlead.com/EINV2API/api/einv/CancelInvoice
 ```
 
 查詢發票狀態
 
 ```
-http://web2.systemlead.com/EINV2/api/einv/GetInvoiceStatus
+http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
 ```
 
