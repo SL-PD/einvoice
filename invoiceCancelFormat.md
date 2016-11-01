@@ -1,2 +1,5 @@
 # 發票作廢上傳格式
 
+* CompanyID: 賣方統扁\(必須為e首發票客戶\)
+* CancelInvoiceID: 作廢發票號碼
+* Reson: 作廢發票原因 
