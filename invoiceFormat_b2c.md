@@ -30,5 +30,5 @@ B2C
 * ProductID: 產品代碼
 * ProductName: 產品名稱
 * Quantity: 數量; 型別Decimal\(17,4\)
-* UnitPrice: 單價; 型別Decimal\(17,4\)
-* SubTotal: 小計; 型別Decimal\(17,4\) 
+* UnitPrice: 含稅單價; 型別Decimal\(17,4\)
+* SubTotal: 含稅小計; 型別Decimal\(17,4\) 
