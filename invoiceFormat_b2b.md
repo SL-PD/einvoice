@@ -18,7 +18,7 @@ B2B
 * InvoiceFor: 發票開立對象，在B2B中填寫B，表示採用B2B存證模式開立
 * DonateMark: 是否捐贈發票，設定為 N 若設定為 Y 則需填 NPOBAN
 * NPOBAN: 捐贈愛心碼，請完整填入3-7碼愛心碼。
-* SalesAmount: 銷售未稅總額
+* SalesAmount: 銷售未稅總額;\(明細小計總額\)
 * TaxAmount: 總稅額
 * TotalAmount: 總金額\(銷售未稅總額+總稅額\); 型別Decimal\(12,0\)
 * Details: 單身明細
@@ -29,6 +29,6 @@ B2B
 * ProductID: 產品代碼
 * ProductName: 產品名稱
 * Quantity: 數量; 型別Decimal\(17,4\)
-* UnitPrice: 單價; 型別Decimal\(17,4\)
-* SubTotal: 小計; 型別Decimal\(17,4\) 
+* UnitPrice: 未稅單價; 型別Decimal\(17,4\)
+* SubTotal: 未稅小計; 型別Decimal\(17,4\) 
 
