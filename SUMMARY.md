@@ -5,4 +5,5 @@
    * [上傳已開立發票](AppendInvoice.md)
    * [簽章驗證值](signature.md)
    * [發票上傳格式B2B](invoiceformat.md)
+   * 發票上傳格式 B2C
 
