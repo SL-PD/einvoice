@@ -13,7 +13,6 @@
   相關說明文件，可參閱 https://github.com/SL-PD/e-Invoice_API 說明
   ```
 
-
 * 拋入已開立發票由e首發票進行後續整合作業(發票版)
 ```
   採用的是HTTP POST的方式傳送，以 SHA256簽章值 驗證
