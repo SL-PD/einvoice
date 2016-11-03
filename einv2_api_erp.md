@@ -12,25 +12,25 @@
 
 **範本類**：
 
-開立B2C存證發票內容範本
+開立B2C存證發票內容範本 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/B2CSample
 ```
 
-開立B2B存證發票內容範本
+開立B2B存證發票內容範本 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/B2BSample
 ```
 
-發票上傳範本
+發票上傳範本 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/AppendInvoiceSample
 ```
 
-發票作廢上傳範本
+發票作廢上傳範本 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/CancelInvoiceSample
@@ -38,19 +38,19 @@ http://web2.systemlead.com/EINV2API/api/einv/CancelInvoiceSample
 
 **功能類**：
 
-發票上傳
+發票上傳 (使用 Http Post)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/AppendInvoice
 ```
 
-發票作廢上傳
+發票作廢上傳 (使用 Http Post)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/CancelInvoice
 ```
 
-查詢發票狀態
+查詢發票狀態 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
@@ -58,7 +58,7 @@ http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
 
 **驗證類**：
 
-測試發票簽章是否正確
+測試發票簽章是否正確 (使用 Http Post)
 
 ```
 http://web2.systemlead.com/EINV2API/api/eInv/AppendInvoiceTest
