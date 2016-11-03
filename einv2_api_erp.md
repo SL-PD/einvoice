@@ -61,6 +61,6 @@ http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
 測試發票簽章是否正確
 
 ```
-http://web2.systemlead.com/EINVAPI/api/eInv/AppendInvoiceTest
+http://web2.systemlead.com/EINV2API/api/eInv/AppendInvoiceTest
 ```
 
