@@ -1,4 +1,4 @@
-# 上傳已開立與作廢發票 AppendInvoice
+# 上傳已開立與作廢發票 AppendInvoice or CancelInvoice
 
 
 上傳已開立發票前，需要先與業務人員**確認帳號已建立完成**，並取得**專屬加密Salt**一組，以便後續上傳作業之進行。
