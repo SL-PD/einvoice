@@ -50,10 +50,16 @@ http://web2.systemlead.com/EINV2API/api/einv/AppendInvoice
 http://web2.systemlead.com/EINV2API/api/einv/CancelInvoice
 ```
 
-查詢發票狀態 (使用 Http Get)
+查詢單筆發票狀態 (使用 Http Get)
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
+```
+
+查詢多筆發票狀態 (使用 Http Post)
+
+```
+http://web2.systemlead.com/EINV2API/api/einv/GetInvoicesStatus
 ```
 
 **驗證類**：
