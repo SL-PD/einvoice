@@ -56,13 +56,18 @@ http://web2.systemlead.com/EINV2API/api/einv/CancelInvoice
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
 ```
 
-查詢多筆發票上傳狀態 (使用 Http Post)
+查詢多筆發票上傳狀態 (使用 Http Post) <br />
+**注意：名稱差異單筆為Invoice 多筆為Invoices
 
 ```
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoicesStatus
 ```
 
+查詢e首發票下載發票字軌於期號
 
+```
+http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceIDList
+```
 
 **驗證類**：
 
