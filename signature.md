@@ -45,7 +45,7 @@ public string GetInvoiceSignature(string TimeStamp, string Data, string HashSalt
 public string SHA256Encrypt(string NonEncryptString)
 {
     SHA256 sha256 = new SHA256CryptoServiceProvider();//建立一個SHA256
-    byte[] source = Encoding.Default.GetBytes(NonEncryptString);//將字串轉為Byte[]
+    byte[] source = Encoding.ASCII.GetBytes(NonEncryptString);//將字串轉為Byte[]
     byte[] crypto = sha256.ComputeHash(source);//進行SHA256加密
     string result = BitConverter.ToString(crypto).Replace("-", string.Empty);//把加密後的字串從Byte[]轉為字串
     return result;//輸出結果
