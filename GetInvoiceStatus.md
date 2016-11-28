@@ -14,3 +14,7 @@ http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus?InvoiceID={發票�
 ```
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoicesStatus
 ```
+Post Json值
+```
+[{"InvoiceID":"{發票號碼1}"},{"InvoiceID":"{發票號碼2}"}]
+```
