@@ -7,5 +7,5 @@
    * [發票上傳格式 B2B](invoiceFormat_b2b.md)
    * [發票上傳格式 B2C](invoiceFormat_b2c.md)
    * [作廢發票上傳格式](invoiceCancelFormat.md)
-   * [查詢發票上傳整合服務平台狀態](GetInvoiceStatus.md)
+   * [查詢發票上傳狀態](GetInvoiceStatus.md)
 
