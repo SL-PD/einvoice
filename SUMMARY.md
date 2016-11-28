@@ -8,5 +8,5 @@
    * [發票上傳格式 B2C](invoiceFormat_b2c.md)
    * [作廢發票上傳格式](invoiceCancelFormat.md)
    * [查詢發票上傳狀態](GetInvoiceStatus.md)
-   * 查詢發票字軌與期號
+   * [查詢發票字軌與期號](GetInvoiceIDList.md)
 
