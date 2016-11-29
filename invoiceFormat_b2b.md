@@ -16,8 +16,8 @@ B2B
 * CheckNumber: 檢查碼 B2B 發票上必須列印四碼檢查碼\(隨機四碼\)，且檢查碼必須與上傳至整合服務平台相同
 * RelateNumber: 關聯號碼，e首發票中可用來帶入關聯的訂單號碼
 * InvoiceFor: 發票開立對象，在B2B中填寫B，表示採用B2B存證模式開立
-* DonateMark: 是否捐贈發票，設定為 N 若設定為 Y 則需填 NPOBAN
-* NPOBAN: 捐贈愛心碼，請完整填入3-7碼愛心碼。
+* DonateMark: 是否捐贈發票，僅能為N
+* NPOBAN: 僅能為NULL
 * SalesAmount: 銷售未稅總額;\(明細小計總額\)
 * TaxAmount: 總稅額
 * TotalAmount: 總金額\(銷售未稅總額+總稅額\); 型別Decimal\(12,0\)
