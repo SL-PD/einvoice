@@ -69,6 +69,13 @@ http://web2.systemlead.com/EINV2API/api/einv/GetInvoicesStatus
 http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceIDList
 ```
 
+更新空白發票 (使用 Http Post)
+
+```
+http://web2.systemlead.com/einv2api/api/eInv/SetBlankInvoiceID
+```
+
+
 **驗證類**：
 
 測試發票簽章是否正確 (使用 Http Post)

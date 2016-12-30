@@ -10,5 +10,4 @@
     * [查詢發票上傳狀態](GetInvoiceStatus.md)
     * [查詢發票字軌與期號](GetInvoiceIDList.md)
     * [空白發票上傳格式](空白發票上傳格式.md)
-* [折讓發票](折讓發票.md)
 
