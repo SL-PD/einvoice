@@ -15,25 +15,25 @@
 開立B2C存證發票內容範本 (使用 Http Get)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/B2CSample
+http://tserv.youshop.com.tw/api/einv/B2CSample
 ```
 
 開立B2B存證發票內容範本 (使用 Http Get)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/B2BSample
+http://tserv.youshop.com.tw/api/einv/B2BSample
 ```
 
 發票上傳範本 (使用 Http Get)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/AppendInvoiceSample
+http://tserv.youshop.com.tw/api/einv/AppendInvoiceSample
 ```
 
 發票作廢上傳範本 (使用 Http Get)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/CancelInvoiceSample
+http://tserv.youshop.com.tw/api/einv/CancelInvoiceSample
 ```
 
 **功能類**：
@@ -41,38 +41,38 @@ http://web2.systemlead.com/EINV2API/api/einv/CancelInvoiceSample
 發票上傳 (使用 Http Post)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/AppendInvoice
+http://tserv.youshop.com.tw/api/einv/AppendInvoice
 ```
 
 發票作廢上傳 (使用 Http Post)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/CancelInvoice
+http://tserv.youshop.com.tw/api/einv/CancelInvoice
 ```
 
 查詢單筆發票上傳狀態 (使用 Http Get)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceStatus
+http://tserv.youshop.com.tw/api/einv/GetInvoiceStatus
 ```
 
 查詢多筆發票上傳狀態 (使用 Http Post) <br />
 **注意：名稱差異單筆為Invoice 多筆為Invoices
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/GetInvoicesStatus
+http://tserv.youshop.com.tw/api/einv/GetInvoicesStatus
 ```
 
 查詢e首發票下載之發票字軌與期號 (使用 Http Post)
 
 ```
-http://web2.systemlead.com/EINV2API/api/einv/GetInvoiceIDList
+http://tserv.youshop.com.tw/api/einv/GetInvoiceIDList
 ```
 
 更新空白發票 (使用 Http Post)
 
 ```
-http://web2.systemlead.com/einv2api/api/eInv/SetBlankInvoiceID
+http://tserv.youshop.com.tw/api/eInv/SetBlankInvoiceID
 ```
 
 
@@ -81,6 +81,6 @@ http://web2.systemlead.com/einv2api/api/eInv/SetBlankInvoiceID
 測試發票簽章是否正確 (使用 Http Post)
 
 ```
-http://web2.systemlead.com/EINV2API/api/eInv/AppendInvoiceTest
+http://tserv.youshop.com.tw/api/eInv/AppendInvoiceTest
 ```
 
