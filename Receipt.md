@@ -20,7 +20,7 @@ X: 不須提供資料
 |InvoiceID|Invoice Number|String|10|M|M|發票字軌含流水號例如 QQ12345678|
 |InvoiceDateTime|Invoice Create DateTime|DateTime||M|M|發票開立時間，請採用ISO 8601格式傳遞 例如：<br /> 2011-07-14T19:43:37+0100|
 |InvoiceFor|Invoice For Buyer|String|1|M|M|發票開立對象，使用B2B存證填寫B，使用B2C存證填寫C|
-|BuyerID|Buyer BAN|String|10|M|M|買方統編[^Ref.1]|
+|BuyerID|Buyer BAN|String|10|M|M|買方統編|
 |BuyerInvoiceTitle|Buyer Company Name|String|60|M|O|買方公司名稱|
 |BuyerName|BuyerName|String|60|O|O|購買人姓名|
 |BuyerTelNo|Buyer Telephone Number|string|26|O|O|買方電話號碼，若要傳送簡訊則此欄位填寫行動電話號碼|
@@ -41,10 +41,11 @@ X: 不須提供資料
 |BuyerRemark|Buyer Remark|String|1|CO|CO|買受人註記 1:得抵扣之進貨及費 2:得抵扣之固定資 3:不得抵扣之進貨及費用 4:不得抵扣之固定資口; 如果為零稅率時填寫(TaxType=2)選填此欄位|
 |FreeTaxSalesAmount|Free Tax Sales Amount|Decimal|(12,0)|CM|CM|免稅銷售總額,如農特產品銷售; 如果為免稅時填寫(TaxType=3)|
 |TotalAmount|Total Amount|Decimal|(12,0)|M|M|總金額(銷售未稅總額+總稅額);|
-|MainRemark|Main Remark|String|200|O|O|發票備註|
-|Details|Invoice Detail Object|Object||M|M|單身明細[^Detail]|
+|MainRemark|發票備註|String|200|O|O|發票備註|
+|Details|發票明細內容|Json Format Object||M|M|單身明細|
 
-### 發票單身[^Detail]
+### Details 發票明細內容格式說明
+
 |欄位名稱|欄位說明|欄位型態|欄位長度|B2B|B2C|條件說明|
 |--|
 |DetailID|Serial Nnmber|String|3|M|M|三碼數字編碼，依序 001 002 不足三碼左邊補 0|
@@ -53,9 +54,11 @@ X: 不須提供資料
 |Quantity|Quantity|Decimal|(12,4)|M|M|數量;|
 |UnitPrice|Unit Price|Decimal|(12,4)|M|M|單價; B2B單價未含稅額，B2C單價包含稅額|
 |SubTotal|Sub Total|Decimal|(12,4)|M|M|小計; (數量X單價)|
+|Remark|明細備註|String|40|O|O|每個明細的備註|
+
+
 
 ---
-[^Ref.1]
 
 
 

@@ -10,5 +10,8 @@
   * [查詢發票上傳狀態](GetInvoiceStatus.md)
   * [查詢發票字軌與期號](GetInvoiceIDList.md)
   * [空白發票上傳格式](空白發票上傳格式.md)
-  * [發票格式](Receipt.md)
+* [上傳已開立發票\(存證\)](shang-chuan-yi-kai-li-fa-796828-cun-8b4929.md)
+* [發票格式](Receipt.md)
+* [B2B發票範例](b2bfa-piao-fan-li.md)
+* [B2C發票範例](b2cfa-piao-fan-li.md)
 
