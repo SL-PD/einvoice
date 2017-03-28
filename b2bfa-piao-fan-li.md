@@ -1,51 +1,51 @@
-B2B發票範本
+一般B2B發票範本
 
 ```
 {
-         "COMPANY_ID":"89430377",
-         "Invoice_ID":"AA12345678",
-         "Invoice_DateTime":"2016-10-27T16:27:34.7258383+08:00",
-         "BUYER_ID":"26089959",
-         "BuyerInvoiceTitle":"矽聯科技股份有限公司南區營業所"
-         "BUYER_NAME":"Nestor Huang",
-         "Buyer_TelNo":"077190888",         
-         "BUYER_ADDRESS":"高雄市鳳山區光遠路226號B1",         
-         "Buyer_Email":"nestor@systemlead.com",
-         "BUYER_ADDRESS":"高雄市鳳山區光遠路226號B1",
-         "CheckNumber":"8943",
-         "RelateNumber":"OD2017032801",
-         "PrintMark":"N",
-         "TAX_TYPE":"1",
-         "SALES_AMOUNT":5238.0,
-         "TAX_AMOUNT":262.0,
-         "TOTAL_AMOUNT":5500.0,
-         "Details":[
-             {
-                 "DETAIL_ID":"001",
-                 "PRODUCT_ID":"P1234",
-                 "PRODUCT_NAME":"產品名稱",
-                 "QUANTITY":5.0,
-                 "UNIT_PRICE":95.238,
-                 "SubTotal":476.19
-             },
-             {
-                 "DETAIL_ID":"002",
-                 "PRODUCT_ID":"P2345",
-                 "PRODUCT_NAME":"長度256個字",
-                 "QUANTITY":2.0,
-                 "UNIT_PRICE":476.1904,
-                 "SubTotal":952.3808
-             },
-             {
-                 "DETAIL_ID":"003",
-                 "PRODUCT_ID":"P3456",
-                 "PRODUCT_NAME":"明細編號3碼",
-                 "QUANTITY":4.0,
-                 "UNIT_PRICE":952.3809,
-                 "SubTotal":3809.5236,
-                 "Remark":"貨品缺1件候補"
-             }]
+     "COMPANY_ID":"89430377",
+     "Invoice_ID":"AA12345678",
+     "Invoice_DateTime":"2016-10-27T16:27:34.7258383+08:00",
+     "BUYER_ID":"26089959",
+     "BuyerInvoiceTitle":"矽聯科技股份有限公司南區營業所"
+     "BUYER_NAME":"Nestor Huang",
+     "Buyer_TelNo":"077190888",         
+     "BUYER_ADDRESS":"高雄市鳳山區光遠路226號B1",         
+     "Buyer_Email":"nestor@systemlead.com",
+     "CheckNumber":"8943",
+     "RelateNumber":"OD2017032801",
+     "PrintMark":"N",
+     "TAX_TYPE":"1",
+     "SALES_AMOUNT":5238,
+     "TAX_AMOUNT":262,
+     "TOTAL_AMOUNT":5500,
+     "Details":[
+         {
+             "DETAIL_ID":"001",
+             "PRODUCT_ID":"P1234",
+             "PRODUCT_NAME":"產品名稱",
+             "QUANTITY":5.0,
+             "UNIT_PRICE":95.238,
+             "SubTotal":476.19
+         },
+         {
+             "DETAIL_ID":"002",
+             "PRODUCT_ID":"P2345",
+             "PRODUCT_NAME":"長度256個字",
+             "QUANTITY":2.0,
+             "UNIT_PRICE":476.1904,
+             "SubTotal":952.3808
+         },
+         {
+             "DETAIL_ID":"003",
+             "PRODUCT_ID":"P3456",
+             "PRODUCT_NAME":"明細編號3碼",
+             "QUANTITY":4.0,
+             "UNIT_PRICE":952.3809,
+             "SubTotal":3809.5236,
+             "Remark":"貨品缺1件候補"
+         }]
 }
-
 ```
+
+
 
