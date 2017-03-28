@@ -29,13 +29,9 @@ e首發票提供之加密Salt:ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 步驟三、將產生的Byte[]轉成Hex String
 
+---
 
-
-
-
-
-
-以C#為範例
+簽章產生程式以C#為範例
 ```cshap
 // 取得簽章驗證值
 public string GetInvoiceSignature(string TimeStamp, string Data, string HashSalt)
