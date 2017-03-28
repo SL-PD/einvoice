@@ -30,7 +30,7 @@ http://tserv.youshop.com.tw/api/einv/AppendInvoices
 發票資料範本
 
 * [一般B2B發票範例](b2bfa-piao-fan-li.md)
-* [一般B2C發票範例](b2bfa-piao-fan-li.md)
+* [一般B2C發票範例](b2cfa-piao-fan-li.md)
 
 
 
