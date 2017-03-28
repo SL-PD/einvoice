@@ -5,6 +5,7 @@
      "COMPANY_ID":"89430377",
      "Invoice_ID":"AA12345678",
      "Invoice_DateTime":"2016-10-27T16:27:34.7258383+08:00",
+     "InvoiceFor":"C",
      "BUYER_ID":"0000000000",
      "BUYER_NAME":"Nestor Huang",
      "BUYER_ADDRESS":"高雄市鳳山區光遠路226號B1",

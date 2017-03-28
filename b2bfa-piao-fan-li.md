@@ -5,6 +5,7 @@
      "COMPANY_ID":"89430377",
      "Invoice_ID":"AA12345678",
      "Invoice_DateTime":"2016-10-27T16:27:34.7258383+08:00",
+     "InvoiceFor":"B",
      "BUYER_ID":"26089959",
      "BuyerInvoiceTitle":"矽聯科技股份有限公司南區營業所"
      "BUYER_NAME":"Nestor Huang",
