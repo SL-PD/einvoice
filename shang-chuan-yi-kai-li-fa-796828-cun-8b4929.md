@@ -20,6 +20,6 @@
 * Data: 發票資料。發票內容可參閱發票格式說明。
 
 發票資料範本
-* B2B發票範例
+* [B2B發票範例](https://sl-pd.gitbooks.io/einvoice_api/content/b2bfa-piao-fan-li.html)
 * B2C發票範例
 
