@@ -6,4 +6,5 @@
 * [一般B2B發票範例](b2bfa-piao-fan-li.md)
 * [一般B2C發票範例](b2cfa-piao-fan-li.md)
 * [開立發票簽章驗證值](signature.md)
+* [上傳發票回覆訊息格式](AppendInvoiceResult.md)
 
