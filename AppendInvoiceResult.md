@@ -2,8 +2,8 @@
 
 |欄位名稱|欄位說明|欄位型態|說明|
 |--|
-|InvoiceID|Invoice Number|String|發票字軌含流水號例如 QQ12345678|
-|InvoiceDateTime|Invoice Create DateTime|DateTime|發票開立時間，請採用ISO 8601格式傳遞 例如：<br /> 2011-07-14T19:43:37+0100|
+|InvoiceID|Invoice Number|String|上傳發票字軌含流水號例如 QQ12345678|
+|InvoiceDateTime|Invoice Create DateTime|DateTime|上傳發票開立時間，採用ISO 8601格式 例如：<br /> 2011-07-14T19:43:37+0100|
 |AuthCode|Invoice Report AuthCode|String|當發票開立成功時，此欄位會回傳AuthCode，可以透過發票檢視網址加上AuthCode 即可檢視發票，發票檢視網址：<br />http://serv.youshop.com.tw/Report/GetInvoice/{AuthCode}|
 |Message|Error Message|String|當發票開立發生錯誤時，此欄位有錯誤訊息，若正確則回傳空值|
 
