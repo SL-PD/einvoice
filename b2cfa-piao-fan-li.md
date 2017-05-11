@@ -33,7 +33,7 @@
              "PRODUCT_NAME":"長度256個字",
              "QUANTITY":2.0,
              "UNIT_PRICE":500.0,
-             "SubTotal":1000.0,
+             "SubTotal":1000.0
          },
          {
              "DETAIL_ID":"003",
