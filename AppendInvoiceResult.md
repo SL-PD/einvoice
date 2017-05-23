@@ -12,13 +12,13 @@
 [
     {
         "InvoiceID":"AA12345678",
-        "Invoice_DateTime":"2016-10-27T16:27:34.7258383+08:00",
+        "InvoiceDateTime":"2016-10-27T16:27:34.7258383+08:00",
         "AuthCode":"B36EB45F-F77C-4A8A-A13D-3F3B12957746",
         "Message":""
     },
     {
         "InvoiceID":"AA12345679",
-        "Invoice_DateTime":"2016-10-27T16:28:34.7258383+08:00",
+        "InvoiceDateTime":"2016-10-27T16:28:34.7258383+08:00",
         "AuthCode":"2272CC24-5D2D-45ED-B837-189B9221EC5E",
         "Message":""
     }    
@@ -29,13 +29,13 @@
 [
     {
         "InvoiceID":"AA12345680",
-        "Invoice_DateTime":"2016-10-27T16:29:34.7258383+08:00",
+        "InvoiceDateTime":"2016-10-27T16:29:34.7258383+08:00",
         "AuthCode":"",
         "Message":"Signature Fail"
     },
     {
         "InvoiceID":"AA12345681",
-        "Invoice_DateTime":"2016-10-27T16:30:34.7258383+08:00",
+        "InvoiceDateTime":"2016-10-27T16:30:34.7258383+08:00",
         "AuthCode":"4D355175-40BA-4F17-BC6E-BA38EA119014",
         "Message":""
     }
